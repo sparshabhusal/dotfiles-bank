@@ -1,0 +1,7 @@
+2025-11-23 19:47:49.964 [info] Getting Manifest... beem.monochromator
+2025-11-23 19:47:51.709 [info] Installing extension: beem.monochromator {"productVersion":{"version":"1.106.1","date":"2025-11-18T19:52:01.708Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sparsha/.vscode-oss/extensions/extensions.json","path":"/home/sparsha/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-11-23 19:47:55.714 [info] Extension signature verification result for beem.monochromator: Success. Executed: true. Duration: 1597ms.
+2025-11-23 19:47:55.744 [info] Extracted extension to file:///home/sparsha/.vscode-oss/extensions/beem.monochromator-0.29.0-universal: beem.monochromator
+2025-11-23 19:47:55.751 [info] Renamed to /home/sparsha/.vscode-oss/extensions/beem.monochromator-0.29.0-universal
+2025-11-23 19:47:55.759 [info] Marked extension as removed beem.monochromator-0.28.0-universal
+2025-11-23 19:47:55.762 [info] Extension installed successfully: beem.monochromator vscode-userdata:/home/sparsha/.vscode-oss/extensions/extensions.json

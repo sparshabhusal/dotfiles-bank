@@ -1,0 +1,1 @@
+2025-11-25 17:29:22.014 [error] Failed to set sticky bit on /tmp/sparsha-code-oss-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/sparsha-code-oss-zsh'

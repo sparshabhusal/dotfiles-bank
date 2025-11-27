@@ -1,0 +1,16 @@
+{
+    "workbench.navigationControl.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "Tokyo Night",
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "editor.fontSize": 16,
+    "files.autoSave": "onWindowChange",
+    "editor.fontFamily": "'sans', 'monospace', monospace",
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "smooth"
+}

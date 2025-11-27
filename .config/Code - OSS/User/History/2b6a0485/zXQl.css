@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(16, 17, 16);
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* Header */
+header {
+  width: 100%;
+  border-bottom: 2px solid #444;
+  padding: 20px 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.links .link-youtube:hover { color: #FF7F7F; }
+.links .link-discord:hover { color: #7289DA; }
+.links .link-github:hover { color: #d3cfcf; }
+
+
+/* Profile Section */
+.profile {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  align-items: center; /* center horizontally */
+  gap: 30px; /* more space between elements */
+  margin: 50px auto 0 auto; /* center horizontally */
+  text-align: center; /* center text inside */
+}
+
+.profile-pic {
+  width: 500px; /* bigger picture */
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header-text {
+  font-size: 3.5rem; /* bigger header */
+  margin: 0;
+}
+
+.description {
+  font-size: 1.5rem; /* bigger description */
+  color: #ccc;
+  max-width: 700px;
+}

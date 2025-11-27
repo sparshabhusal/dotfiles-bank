@@ -1,0 +1,60 @@
+/* --- 🚀 https://github.com/sparshabhusal ✨ --- */
+
+/* Pywal colors */
+@import url("/home/sparsha/.cache/wal/colors-waybar.css");
+
+/* Main Waybar Properties */
+* {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: @background;
+    transition: all 1050ms ease-in-out;
+}
+
+/* Space-Edges */
+.modules-left {
+    margin-left: 12px;    
+}
+
+.modules-right {
+    margin-right: 12px;
+}
+
+/* Workspaces Module */
+#workspaces button.active {
+    border-radius: 50px;
+    min-width: 50px;	
+    background: @color15;
+    color: #121212;
+}
+
+#workspaces {
+    background-color: @background;
+    padding-right: 0;
+}
+
+/* Modules */
+#custom-launcher,
+#workspaces,
+#clock,
+#tray,
+#pulseaudio,
+#custom-power {
+    color: @color15;
+    background-color: @background;
+    margin: 0 5px 0 0;
+    padding: 0 15px 0 15px; 
+    border: 0.75px solid @color15; /* White Border */
+    border-radius : 200px;
+}
+
+/* Special property for tray */
+#tray {
+    padding: 2px 10px;
+}

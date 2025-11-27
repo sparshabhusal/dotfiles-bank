@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(16, 17, 16);
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* Header */
+header {
+  width: 100%;
+  border-bottom: 2px solid #444;
+  padding: 20px 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.links .link-youtube:hover { color: #FF7F7F; }
+.links .link-discord:hover { color: #7289DA; }
+.links .link-github:hover { color: #d3cfcf; }
+
+/* Profile Section */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px auto 0 auto;
+  text-align: left;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.header-text {
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: #ccc;
+  max-width: 600px;
+}
+
+/* Lines */
+.line {
+  border: 0;
+  height: 2px;
+  background-color: #444;
+  margin: 50px 50px;
+}
+
+/* Skills Section */
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0 50px 0;
+}
+
+.skill-icon {
+  font-size: 3rem;
+  color: white;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.skill-icon:hover {
+  color: #FF7F7F;
+  transform: scale(1.3);
+}
+
+/* Buttons Section */
+.link-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.link-btn {
+  background-color: white;
+  color: black;
+  padding: 12px 25px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.link-btn:hover {
+  /* Change background color to the original header hover color depending on the link */
+  transform: scale(1.05);
+}
+
+.link-btn:nth-child(1):hover { background-color: #FF7F7F; color: white; } /* Youtube */
+.link-btn:nth-child(2):hover { background-color: #7289DA; color: white; } /* Discord */
+.link-btn:nth-child(3):hover { background-color: #d3cfcf; color: black; } /* Github */

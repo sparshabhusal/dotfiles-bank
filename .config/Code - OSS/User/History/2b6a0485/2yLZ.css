@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(16, 17, 16);
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  position: relative;
+}
+
+/* Profile section */
+.profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  margin: 50px 50px 0 50px;
+  position: relative; /* for floating icons */
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header-text {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #ccc;
+  max-width: 600px;
+}
+
+/* Floating icons */
+.float-icon {
+  position: absolute;
+  font-size: 4rem; /* big icons */
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.float-icon:hover {
+  transform: scale(1.5) rotate(10deg);
+  color: #ff7f50;
+}

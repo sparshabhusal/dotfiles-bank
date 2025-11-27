@@ -1,0 +1,20 @@
+2025-11-16 19:28:16.241 [info] [main] Log level: Info
+2025-11-16 19:28:16.241 [info] [main] Validating found git in: "git"
+2025-11-16 19:28:16.241 [info] [main] Using git "2.51.2" from "git"
+2025-11-16 19:28:16.241 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-16 19:28:16.241 [info] > git rev-parse --show-toplevel [8ms]
+2025-11-16 19:28:16.241 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3ms]
+2025-11-16 19:28:16.241 [info] [Model][openRepository] Opened repository (path): /home/sparsha/Desktop/portfolio
+2025-11-16 19:28:16.241 [info] [Model][openRepository] Opened repository (real path): /home/sparsha/Desktop/portfolio
+2025-11-16 19:28:16.241 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-16 19:28:16.241 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-16 19:28:16.241 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-16 19:28:16.241 [info] > git config --get commit.template [6ms]
+2025-11-16 19:28:16.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-11-16 19:28:16.252 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/sparsha/Desktop/portfolio/.git/refs/remotes/origin/main'
+2025-11-16 19:28:16.254 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-11-16 19:28:16.352 [info] > git status -z -uall [93ms]
+2025-11-16 19:28:16.352 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [90ms]
+2025-11-16 19:28:16.397 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2025-11-16 19:28:16.405 [info] > git config --get --local branch.main.vscode-merge-base [4ms]
+2025-11-16 19:28:16.410 [info] > git config --get commit.template [14ms]

@@ -1,0 +1,112 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Fade-in animation */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #131414;
+  color: #e8eaed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+body.page-loaded {
+  opacity: 1;
+}
+
+/* Container animation */
+.container {
+  text-align: center;
+  animation: fadeUp 0.6s ease;
+}
+
+@keyframes fadeUp {
+  0% { transform: translateY(20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+/* Title */
+h1 {
+  font-family: 'Product Sans', sans-serif;
+  font-size: 4rem;
+  margin-bottom: 40px;
+  color: #e8eaed;
+}
+
+/* Search bar */
+.search-container {
+  position: relative;
+  width: 600px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 14px 55px 14px 55px;
+  border-radius: 24px;
+  border: 1px solid #5f6368;
+  background-color: #303134;
+  color: #e8eaed;
+  font-size: 1.2rem;
+  outline: none;
+  transition: border 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+#searchBox:focus {
+  border-color: #e8edf5;
+  background-color: #3b3c3d;
+  box-shadow: 0 0 10px rgba(255,255,255,0.15);
+}
+
+/* Clickable FontAwesome icon */
+.search-icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #c2c4c7;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.search-icon:hover {
+  transform: translateY(-50%) scale(1.15);
+  color: white;
+}
+
+/* Shake animation */
+.shake {
+  animation: shake 0.3s ease;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  h1 { font-size: 3rem; }
+  #searchBox { font-size: 1.1rem; padding: 12px 45px; }
+  .search-icon { font-size: 1.1rem; }
+}
+
+@media (min-width: 601px) {
+  h1 { font-size: 4rem; }
+  #searchBox { font-size: 1.2rem; }
+  .search-icon { font-size: 1.2rem; }
+}

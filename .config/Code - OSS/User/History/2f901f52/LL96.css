@@ -1,0 +1,65 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #131414; /* Google dark mode */
+  color: #e8eaed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-family: 'Product Sans', sans-serif;
+  font-size: 4rem;
+  margin-bottom: 40px;
+  color: #e8eaed;
+}
+
+/* Search bar */
+.search-container {
+  position: relative;
+  width: 600px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 14px 50px 14px 50px; /* space for icon */
+  border-radius: 24px;
+  border: 1px solid #5f6368;
+  background-color: #303134;
+  color: #e8eaed;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+#searchBox:focus {
+  border-color: #8ab4f8;
+}
+
+/* FontAwesome search icon inside input */
+.search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9aa0a6;
+  font-size: 1.2rem;
+  pointer-events: none;
+}

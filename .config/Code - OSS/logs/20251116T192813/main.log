@@ -1,0 +1,4 @@
+2025-11-16 19:28:14.022 [info] update#setState disabled
+2025-11-16 19:28:14.024 [info] update#ctor - updates are disabled as there is no update URL
+2025-11-16 19:28:16.419 [info] Extension host with pid 2310 exited with code: 0, signal: unknown.
+2025-11-16 19:28:19.393 [error] Extension host with pid 2310 still exists, forcefully killing it...

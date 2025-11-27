@@ -1,0 +1,46 @@
+/* style.css */
+body {
+  background-color: rgb(16, 17, 16);
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+header {
+  width: 100%;
+  border-bottom: 2px solid #444; /* line under header */
+  padding: 20px 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  gap: 40px; /* space between links */
+  margin-bottom: 20px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.link-youtube {
+  color: #ff6b6b; /* highlight on hover */
+}
+
+.link-github {
+  color: #bebaba; /* grey on hover */
+}
+
+.link-discord {
+  color: #7289DA; /* Discord blue */
+}
+
+.header-text {
+  text-align: center;
+  font-size: 3rem; /* bigger text */
+  margin-top: 50px;
+}

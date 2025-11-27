@@ -1,0 +1,103 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "f8afd5d1d16010beac989668c6346eecae761d90576efd670fc745ff5d7557cc",
+    "telemetry.devDeviceId": "7b61fd0d-a9ef-4192-a486-0add9739df9e",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/sparsha/Desktop/quicksearch"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1764241691081"
+            },
+            {
+                "backupFolder": "1764241693188"
+            }
+        ]
+    },
+    "windowControlHeight": 30,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/sparsha/Documents/project": "__default__profile__",
+            "file:///home/sparsha/Desktop/portfolio": "__default__profile__",
+            "file:///home/sparsha/Desktop/quicksearch": "__default__profile__",
+            "file:///home/sparsha/Documents/project-quicksearch-other": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1764071360794": "__default__profile__",
+            "1764241691081": "__default__profile__",
+            "1764241693188": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/sparsha/.config/Code - OSS/Backups/1764241693188",
+            "uiState": {
+                "mode": 1,
+                "x": 16,
+                "y": 570,
+                "width": 938,
+                "height": 494
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1a1b26",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#787c99",
+            "background": "#1a1b26",
+            "editorBackground": "#1a1b26",
+            "titleBarBackground": "#16161e",
+            "titleBarBorder": "#101014",
+            "activityBarBackground": "#16161e",
+            "activityBarBorder": "#16161e",
+            "sideBarBackground": "#16161e",
+            "sideBarBorder": "#101014",
+            "statusBarBackground": "#16161e",
+            "statusBarBorder": "#101014",
+            "statusBarNoFolderBackground": "#16161e",
+            "windowBorder": "#0d0f17"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 0,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 244,
+            "auxiliaryBarWidth": 170,
+            "workspaces": {
+                "d5941f59e8bcc97d5c87be8e25875b79": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "8d6f87b7aabd8c904d8191dcbfbb8279": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1d78e18bddcf9f25fbf4ae9aa1ee64d4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "3b34e6355d0b5d78c7a4247c95a09e6f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

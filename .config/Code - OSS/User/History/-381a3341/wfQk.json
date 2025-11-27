@@ -1,0 +1,12 @@
+{
+    "workbench.navigationControl.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "Tokyo Night",
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "editor.fontSize": 12
+}

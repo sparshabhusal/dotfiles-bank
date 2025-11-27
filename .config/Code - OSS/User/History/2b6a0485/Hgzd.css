@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(16, 17, 16);
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+header {
+  width: 100%;
+  border-bottom: 2px solid #444;
+  padding: 20px 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.links a i {
+  margin-right: 8px;
+}
+
+.link-youtube:hover {
+  color: #FF7F7F; /* pastel red */
+  text-shadow: 0 0 5px #FF7F7F;
+}
+
+
+.link-github:hover {
+  color: #d1cece;
+  text-shadow: 0 0 5px #808080;
+}
+
+.link-discord:hover {
+  color: #7289DA;
+  text-shadow: 0 0 5px #7289DA;
+}
+
+/* Profile section */
+.profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  margin: 50px 50px 0 50px;
+  position: relative; /* for floating skills positioning */
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header-text {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #ccc;
+  max-width: 600px;
+}
+
+/* Floating skills on the right */
+.floating-skills {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.skill-icon {
+  font-size: 4rem; /* big icons */
+  color: #fff;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.skill-icon:hover {
+  color: #ff7f50; /* pastel highlight */
+  transform: scale(1.5); /* hover zoom effect */
+}

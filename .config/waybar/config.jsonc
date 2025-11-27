@@ -1,0 +1,68 @@
+// --- 🚀 https://github.com/sparshabhusal ✨ --- //
+
+{
+    "layer": "top", 
+    "position": "top",
+    "margin-top": 10,
+    "spacing": 16,
+    "modules-left": [
+	"custom/launcher",    
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "tray",
+        "pulseaudio",
+        "custom/power"
+    ],
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "on-click": "activate",
+      "format-icons": {
+        "urgent": "󰀨 "
+       },
+       "sort-by-number": true,
+       "persistent-workspaces": {
+            "*": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        }
+    },
+    "tray": {
+	"show-passive-items": true,
+        "icon-size": 21,
+        "spacing": 10
+    },
+    "clock": {
+        "timezone": "Asia/Kathmandu",
+        "format": "  {:%a, %d. %b | 󰥔  %I:%M %p}",   
+	"on-click": "kitty -e tty-clock -c -t"
+    },
+    "pulseaudio": {
+        "format": "{icon}   {volume}%",
+        "format-bluetooth": "{icon}   {volume}%",
+        "format-bluetooth-muted": "   {icon}   Muted",
+        "format-muted": "   Muted",
+        "format-source": "  {volume}%",
+        "format-source-muted": "   Muted",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": [""]
+        },
+        "on-click": "pavucontrol"
+    },
+   "custom/launcher": {
+        "format" : "󰀻  Apps",
+        "on-click" : "rofi -show drun"
+    },
+    "custom/power": {
+        "format": "   Power",
+	"on-click" : "wlogout &"
+		}
+    }
+}
